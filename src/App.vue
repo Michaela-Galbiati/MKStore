@@ -1,30 +1,37 @@
-<template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+<template class="container">
+ <div>
+    <Menu_Principal></Menu_Principal>
+    <router-view></router-view>
+    <Footer></Footer>
+ </div>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
 
-nav {
-  padding: 30px;
+  import Menu_Principal from './components/Menu_Principal'
+  import Cabeçalho_Parteprimeira from './components/Cabeçalho_Parteprimeira'
+  import Footer from './components/Footer'
+  import Entrar_Carrinho from './components/Entrar_Carrinho'
+  import Personalização_Escolhas from './components/Personalização_Escolhas'
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
 
-    &.router-link-exact-active {
-      color: #42b983;
+  export default{
+    name:'App',
+    components:{
+      Menu_Principal,
+      Footer,
     }
   }
-}
+
+</script>
+
+
+<style>
+
+  #modelos{
+    text-align: center;
+  }
+
+
+
 </style>

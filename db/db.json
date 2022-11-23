@@ -1,0 +1,146 @@
+{
+  "Personalizado": {
+    "madeiras": [
+      {
+        "id": 1,
+        "title": "Madeira clara"
+      },
+      {
+        "id": 2,
+        "title": "Madeira escura"
+      },
+      {
+        "id": 3,
+        "title": "Madeira marrom"
+      },
+      {
+        "id": 4,
+        "title": "Madeira branca"
+      },
+      {
+        "id": 5,
+        "title": "Madeira colorida"
+      },
+      {
+        "id": 6,
+        "title": "Madeira colorida horizontal"
+      },
+      {
+        "id": 7,
+        "title": "Madeira rustica"
+      },
+      {
+        "id": 8,
+        "title": "Madeira cinza"
+      },
+      {
+        "id": 9,
+        "title": "Madeira amarela"
+      }
+    ],
+    "estampas": [
+      {
+        "id": 1,
+        "title": "Estampa rosa com flores"
+      },
+      {
+        "id": 2,
+        "title": "Estampa amarela com carrinhos"
+      },
+      {
+        "id": 3,
+        "title": "Estampa laranja com morcegos"
+      },
+      {
+        "id": 4,
+        "title": "Estampa vitral colorido"
+      },
+      {
+        "id": 5,
+        "title": "Estampa preta com estrelas"
+      },
+      {
+        "id": 6,
+        "title": "Estampa joy"
+      },
+      {
+        "id": 7,
+        "title": "Estampa branca com textura"
+      },
+      {
+        "id": 8,
+        "title": "Estampa florida"
+      }
+    ],
+    "bordacores": [
+      {
+        "id": 1,
+        "title": "rosa"
+      },
+      {
+        "id": 2,
+        "title": "preto"
+      },
+      {
+        "id": 3,
+        "title": "branco"
+      },
+      {
+        "id": 4,
+        "title": "laranja"
+      },
+      {
+        "id": 5,
+        "title": "amarelo"
+      },
+      {
+        "id": 6,
+        "title": "roxo"
+      },
+      {
+        "id": 7,
+        "title": "verde"
+      },
+      {
+        "id": 8,
+        "title": "azul"
+      }
+    ]
+  },
+  "Pedido": [
+    {
+      "name": "Marcos",
+      "madeiras": "Madeira colorida",
+      "estampas": "Estampa joy",
+      "bordacores": "roxo",
+      "status": "Em produção",
+      "email": "marcos @gmail.com",
+      "telefone": "(21) 78569-8989",
+      "id": 1
+    },
+    {
+      "name": "Marcos",
+      "madeiras": "Madeira colorida",
+      "estampas": "Estampa joy",
+      "bordacores": "roxo",
+      "status": "Solicitado",
+      "email": "marcos @gmail.com",
+      "telefone": "(21) 78569-8989",
+      "id": 2
+    }
+  ],
+  "status": [
+    {
+      "id": 1,
+      "title": "Solicitado"
+    },
+    {
+      "id": 2,
+      "title": "Em produção"
+    },
+    {
+      "id": 3,
+      "title": "Cancelado"
+    }
+  ]
+}
