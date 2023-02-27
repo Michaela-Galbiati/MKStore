@@ -55,7 +55,12 @@
     h1{
         letter-spacing: 4px;
         padding: 7px;
-        font-size: 36px;
+        font-size: 34px;
+    }
+    @media (max-width:600px) {
+        h1{
+            font-size: 28px;
+        }
     }
     h3{
         padding: 40px;
