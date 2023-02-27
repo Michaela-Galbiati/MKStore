@@ -57,9 +57,9 @@
         padding: 7px;
         font-size: 34px;
     }
-    @media (max-width:600px) {
+    @media (max-width:800px) {
         h1{
-            font-size: 28px;
+            font-size: 23px;
         }
     }
     h3{
